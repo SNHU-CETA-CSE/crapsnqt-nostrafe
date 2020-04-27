@@ -1,13 +1,5 @@
-//
-// Created by Arana Fireheart on 1/30/20.
-//
-
 #ifndef CRAPSSTARTER_DIE_H
 #define CRAPSSTARTER_DIE_H
-
-//
-// Created by Arana Fireheart on 1/30/20.
-//
 #include <string>
 
 class Die {
@@ -16,7 +8,7 @@ protected:
     int startingValue;
     int increment;
     std::string color;
-    std::string name;
+    std::string ID;
     int value;
 public:
     Die(int openingNumberOfSides = 6, int openingStartingValue = 1, int openingIncrement = 1,
@@ -33,8 +25,8 @@ public:
     int getIncrement();
     void setColor(std::string newColor);
     std::string getColor();
-    void setName(std::string newName);
-    std::string getName();
+    void setID(std::string newName);
+    std::string getID();
 };
 
 struct BadDieValueException : public std::exception {

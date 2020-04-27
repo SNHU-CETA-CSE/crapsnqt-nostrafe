@@ -1,6 +1,3 @@
-//
-// Created by Arana on 2/18/20.
-//
 #include <iostream>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QWidget>
